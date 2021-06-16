@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <div class="main-layout">
+
+        <h1 class="title">Currency converter By Jahidun Nur</h1>
+        <form class="form-main" id="form">
+            <p style="text-align:center;color: rgb(14, 46, 150);font-size:19px;font-family: Verdana, Geneva, Tahoma, sans-serif;">CONVERT CURRENCIES</p>
+            <div class="form">
+                <div class="boxes">
+                    <label for="amount">Amount: </label>
+
+                    <input class="viewBox" value="" id="amount" name="amountBdt" type="number"
+                        placeholder="Enter you amount" />
+                </div>
+                <div class="boxes">
+                    <label for="firstCurrency">From</label>
+                    <select value="" class="viewBox" name="" id="firstCurrency">
+                        <option value="BDT">BDT - Bangladeshi TK</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="EUR">EUR - EURO</option>
+                        <option value="INR">INR - Indian Rupee</option>
+                        <option value="AUD">AUD - Australian Dollar</option> Rupee</option>
+                        <option value="YEN">YEN - Indian Rupee</option>
+                        <option value="YEN">PKR - Pakistani Rupee</option>
+                        <option value="PESO">ARS - Argentine Peso</option>
+                    </select>
+                </div>
+                <div class="boxes">
+                    <label for="seconCurrency">To</label>
+                    <select class="viewBox" id="secondCurrency">
+                        <option value="BDT">BDT - Bangladeshi TK</option>
+                        <option value="USD">USD - US Dollar</option>
+                        <option value="EUR">EUR - EURO</option>
+                        <option value="INR">INR - Indian Rupee</option>
+                        <option value="AUD">AUD - Australian Dollar</option> Rupee</option>
+                        <option value="YEN">JPY - Japanese Yen</option>
+                        <option value="PKR">PKR - Pakistani Rupee</option>
+                        <option value="PESO">ARS - Argentine Peso</option>
+                    </select>
+                </div>
+
+            </div>
+            <div style="text-align:center">
+                <button id="submit" class="btn" type="button">Convert</button>
+            </div>
+            <p id="output" style="text-align: center;margin-top: 50px;"></p>
+    </div>
+    </form>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
